@@ -4,5 +4,6 @@ select customer_id from(
   
    
       group by customer_id 
+      having cou =( select count(*) from product)
 )d
- where cou = (select count(*) from product);
+ ;
