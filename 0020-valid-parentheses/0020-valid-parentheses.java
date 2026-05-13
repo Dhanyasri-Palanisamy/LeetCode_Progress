@@ -8,7 +8,7 @@ class Solution {
             }
             else{
                 if(st.isEmpty()) return false;
-                int mela= st.peek();
+                char mela= st.peek();
                 if(!st.isEmpty()&&(mela =='{'&& ch=='}')||(mela =='('&& ch==')')||(mela =='['&& ch==']')){
                      st.pop();
 
